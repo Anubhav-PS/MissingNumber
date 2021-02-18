@@ -3,7 +3,7 @@ Find single missing number within an array
 
 import java.util.Arrays;   //import the arrays package
 
-public class find_missing_number {
+public class FindMissingNumber {
     
     //main function
     public static void main(String[] args) {
