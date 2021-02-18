@@ -1,5 +1,5 @@
 # MissingNumber
-Find single missing number in an sub array starting from any index point within the array
+Find single missing number within an array
 
 import java.util.Arrays;   //import the arrays package
 
@@ -7,8 +7,8 @@ public class find_missing_number {
     
     //main function
     public static void main(String[] args) {
-        int n = 6;                                        //the number of elements supposed to be there in an array or subarray 
-        int[] arr = new int[]{1,2,3,5,6};                 //the number of elements present in the array or subarray    (one number is missing in the substring) 
+        int n = 6;                                        //the number of elements supposed to be there in an array 
+        int[] arr = new int[]{1,2,3,5,6};                 //the number of elements present in the array     (one number is missing in the substring) 
         System.out.println(Arrays.toString(arr));         // displaying the array 
         System.out.println(findMissingNumber(arr, n));    //calling and displaying the missing number from the findMissingNumber function
     }
